@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Dev Index</title>
+  </head>  
+  <!--CSS Font type is Urbanist--> 
+     <body>
+    <form action="/signup" method="post">
+        <p>
+          <label class="fName">First Name*</label><br>
+          <input type="text" name="first_name" placeholder="Enter your first name" required>
+        </p>
+        <p>
+          <label class="lName">Last Name*</label><br>
+          <input type="text" name="last_name" placeholder="Enter your last name" required>
+        </p>
+       
+        <p> <label class="gender">Gender*</label><br>
+        <select name="gender" id="gender-select" required>
+          <option slected value="">Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-Binary"> Non-Binary</option>
+            <option value="none">Rather not say</option>
+        </select>
+        </p>
+        <p>
+          <label class="Weight">Weight (KG)*</label><br>
+          <input type="number" name="weight" placeholder="Enter your weight" required>
+        </p>
+        <p>
+          <label class="Height">Height (CM)*</label><br>
+          <input type="number" name="height" placeholder="Enter your height" required>
+        </p>
+        <p>
+            <label>Date of Birth*</label><br> 
+            <input type="date" required>  
+          </p>  
+          <label>Password</label><br>
+          <input type="password" name="password">
+
+          <p> 
+          
+          <button class="submit">Register</button></p> 
+          <p>  <button type="reset">Reset form</button> 
+       
+        </p>
+       <p>
+          <label>
+           <input type="checkbox" value="terms">
+           By checking this box, you agree to our <a href="/terms">Terms of Use </a> and <a href="Policy">Privacy policy</a>
+         </label>
+        </p>  
+  </body>
+</html>
